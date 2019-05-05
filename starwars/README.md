@@ -5,6 +5,13 @@
 ```
 virtualenv -p python2 <virtualenv-name>
 ```
+
+- Activate the virtualenv
+**Run Command**
+```
+source <virtualenv-folder>/bin/activate
+```
+
 - Run the following command to install all the requirements
 **Run Command**
 ```
