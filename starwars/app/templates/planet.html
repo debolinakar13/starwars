@@ -1,0 +1,8 @@
+<h1>Add to your favourites</h1>
+{% for i in data %}
+    <form method="POST">
+        {% csrf_token %}
+        <p>{{ forloop.counter }}:{{i}}</p><br>
+        <p><input type="submit" name="add_items" value="add {{i}} to favourite"></p>
+    </form>
+{% endfor %}
